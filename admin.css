@@ -1,0 +1,47 @@
+body {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #f8f9fd;
+    color: gray;
+}
+
+
+.form-group {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.btn {
+    margin: auto;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background: #8d448b;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.fas {
+    color: white;
+    display: inline-block;
+}
+
+.login-wrap {
+    position: relative;
+    background: rgb(230, 224, 224);
+    border-radius: 10px;
+    
+}
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.ftco-section {
+    padding: 7em 0;
+}

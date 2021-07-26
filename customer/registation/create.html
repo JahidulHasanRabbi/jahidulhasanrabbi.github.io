@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Customer Account</title>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/48703dc932.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="create-style.css">
+    <script src="myjs.js"></script>
+</head>
+
+<body >
+    <header>
+
+        <div class="first-navbar">
+            <nav class="navbar">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                      <span class="text-upeercase shopmart">shopmart</span>
+                  </a>
+    
+                  <div class="search">
+                    <form class="d-flex">
+                        <input class="form-control search-control" type="search" placeholder="Search for Product" aria-label="Search">
+                        <button class="btn btn-outline-success btn0" type="submit">Search</button>
+                      </form>
+                  </div>
+    
+                  <div class="cart">
+                    <span><i class="fas fa-cart-plus"></i></span>
+                    <strong class="cart-my">My Cart</strong>
+                  </div>
+    
+                  <div class="login">
+                      <a href="login.html">
+                        <i class="fas fa-user-lock"></i>
+                        <span>Login</span>
+                      </a>
+    
+                    <a href="create.html">
+                        <i class="fas fa-user-plus"></i>
+                        <span>Registion</span>
+                      </a>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+
+        <div class="snd-navbar">
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="fas fa-bars"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+
+                      <li class="nav-item">
+                        <a class="nav-link" id="home-f" aria-current="page" href="index.html">Home</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          woman's fasion
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                          <li><a class="dropdown-item" href="#">Tops</a></li>
+                          <li><a class="dropdown-item" href="#">winter cloth</a></li>
+                          <li><a class="dropdown-item" href="#">Hoodies</a></li>
+                          <li><a class="dropdown-item" href="#">accessories</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          man's fasion
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                          <li><a class="dropdown-item" href="#">winter collection</a></li>
+                          <li><a class="dropdown-item" href="#">Tshirt</a></li>
+                          <li><a class="dropdown-item" href="#">man's shoes</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          smartphones
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                          <li><a class="dropdown-item" href="#">nokia</a></li>
+                          <li><a class="dropdown-item" href="#">samsung</a></li>
+                          <li><a class="dropdown-item" href="#">apple</a></li>
+                          <li><a class="dropdown-item" href="#">mi</a></li>
+                          <li><a class="dropdown-item" href="#">oppo</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          electronics & appliances
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                          <li><a class="dropdown-item" href="#">home appliances</a></li>
+                          <li><a class="dropdown-item" href="#">kitchen appliances</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          computer & accessories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                          <li><a class="dropdown-item" href="#">laptop</a></li>
+                          <li><a class="dropdown-item" href="#">dekstop</a></li>
+                          <li><a class="dropdown-item" href="#">all in one pc</a></li>
+                          <li><a class="dropdown-item" href="#">acessories</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          home & beauty
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                          <li><a class="dropdown-item" href="#">gromming product</a></li>
+                          <li><a class="dropdown-item" href="#">trimmer & shaver</a></li>
+                          <li><a class="dropdown-item" href="#">hair dryer</a></li>
+                          <li><a class="dropdown-item" href="#">hair product</a></li>
+                          <li><a class="dropdown-item" href="#">Men's Perfumes & Fragrances</a></li>
+                          <li><a class="dropdown-item" href="#">women's Perfumes & Fragrances</a></li>
+                          <li><a class="dropdown-item" href="#">men's watch</a></li>
+                          <li><a class="dropdown-item" href="#">women's watch</a></li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+        </div>
+
+    </header>
+
+    <div class="main-breadcrump">
+      <div class="container-fluid">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item" aria-current="page">Registion</li>
+        </ol>
+      </div>
+    </div>
+
+
+    <div class="main_page">
+        <div class="car">
+            <div style="margin-left: 20px;" class="card-titl">
+                <h4>
+                    <span style="font-size: 17px;">Create New Customer Account</span>
+                </h4>
+            </div>
+        </div>
+
+        <div class="row mx-auto">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="box  my-5">
+                    <div class="box-body">
+                        <div class="box-title">
+                            <span>Personal Information</span>
+                        </div>
+
+                        <form action="#"  class="form-singin">
+                        
+                           <div class="form-login-group">
+                               <label for="first Name" class="label">
+                                   First Name 
+                               </label>
+                           </div>
+
+                           <div class="control">
+                               <input type="First Name" name="First Name" id="firstname" class="form-control" placeholder="First Name" required autofocus>
+                           </div>
+
+                           <div class="form-login-group">
+                               <label for="last name" class="label">Last Name</label>
+                           </div>
+
+                           <div class="control">
+                               <input type="username" name="Last Name" id="lastname" class="form-control" placeholder="Last Name" required autofocus>
+                           </div>
+
+                           <div class="form-login-group">
+                            <label for="email" class="label">
+                                    Email
+                            </label>
+                            </div>
+
+                            <div class="control">
+                             <input type="email" name="Email" id="Email" class="form-control" placeholder="Email" required autofocus>
+                            </div>
+
+                            <div class="form-login-group">
+                                <label for="password" class="lable">
+                                    <span>Password</span>
+                                </label>
+                            </div>
+                         
+                            <div class="control">
+                                <input type="password" name="Password" id="inputpassword" class="form-control" placeholder="Password" required autofocus>
+                            </div>
+                            
+                            <div class="form-login-group">
+                                <label for="Confirm Password" class="lable">
+                                    <span>Confirm Password</span>
+                                </label>
+                            </div>
+                         
+                            <div class="control">
+                                <input type="password" name="Password" id="inputpassword" class="form-control" placeholder="Confirm Password" required autofocus>
+                            </div>
+
+                            <div class="form-login-group create-account text-uppercase">
+                                <a href="$" class="registion">
+                                    <button class="btn btn-primary btn-block text-uppercase" type="submit">Create an account
+                                    </button>
+                                </a>
+                            </div>
+                         
+                        
+                           <div class="detail">
+                               <p>
+                                   <span>Or, login With</span>
+                               </p>
+                           </div>
+                        
+                           <div class="col">
+                            <div class="text-uppercase">
+
+                                <a href="#" class="facebook btn"><i class="fa fa-facebook fa-fw">
+                                </i> Login With Facebook
+                                </a>
+                            </div>
+
+                            <div class="text-uppercase">
+                                <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                                </i> login with google
+                                </a>
+                            </div>
+
+                            <div class="secanfody">
+                                <p>Already have an account?<a href="#">Login in</a></p>
+                            </div>
+                          </div>
+                          
+                        </form>
+                    </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center">
+
+        <section class="text-custom">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase">
+                            About us
+                        </h6>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-reset">Privacy Policy</a>
+                            </li>
+            
+                            <li> 
+                                <a href="#!" class="text-reset">Cookie Policy</a>
+                            </li>
+            
+                            <li>
+                                <a href="#!" class="text-reset">Help</a>
+                            </li><li>
+                                <a href="#!" class="text-reset">Privacy Policy</a>
+                            </li>
+            
+                            <li>
+                                <a href="#!" class="text-reset">Cookie Policy</a>
+                            </li>
+            
+                            <li>
+                                <a href="#!" class="text-reset">Help</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                          Contact
+                        </h6>
+                        <p><a href="#" class="text-reset"">Contact Us</a></p>
+            
+                    </div>
+                    
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase">
+                          Shopmart
+                        </h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p></p><i class="fas fa-map-marker-alt"></i><span style="margin-left: 20px;">Baridara, Dhaka</span></p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone me-3"></i>+ 880 1712247851</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-print me-3"></i>+ 880 1825458512</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto  mb-4">
+                        <h6 class="text-uppercase">
+                            Download our app
+                        </h6>
+                        <a href="#" style="display: inline-block; overflow: hidden; border-radius: 10px; width: 200px; height: 70px;">
+                            <img src="google-play-badge.png" alt="Download in Play Store" style="border-radius: 10px; width: 200px; height:70px">
+                        </a>
+                    </div>
+          
+                </div>
+            </div>
+        </section>
+
+        
+
+        <div class="social-group">
+            <a href="#" class="social fb">
+                <span class="fab fa-facebook "></span>
+            </a>
+
+            <a href="#" class="social youtube">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="#" class="social instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="rights text-center">
+            <p>All rights reserved</p>
+        </div>
+
+
+    </footer>
+
+</body>
+</html>

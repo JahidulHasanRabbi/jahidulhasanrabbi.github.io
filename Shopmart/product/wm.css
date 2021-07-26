@@ -1,0 +1,16 @@
+.card {
+    width: 210px;
+    height: 400px;
+}
+
+.card-title {
+    font-size: 14px;
+    font: 500 14px/1.35 Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.card-text {
+    font-size: 130%;
+    color: #ef4932;
+    text-align: center;
+    font: bold;
+}

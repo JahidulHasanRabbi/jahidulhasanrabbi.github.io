@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+
+body {
+    font-family: raleway,sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    clear: both;
+}
+
+li {
+    text-align: -webkit-match-parent;
+
+}
+
+.main_page {
+    margin: 0 50px 0 50px;
+    
+}
+
+.page-title {
+    margin: 10px 0 0 15px;
+}
+
+.page-title, h4 {
+    font-size: 20px;
+}
+}
+
+.box-title {
+    margin-top: -20px;
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+
+.box .box-body {
+    padding: 1rem;
+    margin: -20px;
+}
+
+input,
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.form-control {
+    background: #ffffff;
+    font-size: 13px;
+}
+
+.form-control input[type=text] {
+    font-size: 15px;
+}
+
+.form-login-group {
+    margin-top: 10px;
+}
+
+.facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.google {
+    background: #ea4335;
+    color: white;
+}
+
+footer {
+    font-size: 0.8rem;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: ;
+    padding-top: 10px;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+.social {
+    height:1rem;
+    font-size: 2em;
+    margin: auto;
+}
+
+.youtube {
+    color: red;
+}
+
+.instagram {
+    color: red;
+}
+
+.social-group {
+    padding-bottom: 20px;
+}
+
+.rights {
+    padding-bottom: 30px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+header {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.shopmart{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.search {
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.search input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 80%;
+    height: auto;
+    background: #f5f5f5;
+    font-size: 15px;
+}
+
+.search input[type=text] {
+    padding: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    border: none;
+}
+
+.search button{
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 20%;
+    height: auto;
+    background: #076fd1;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cart {
+    float: left;
+}
+
+.cart-my {
+    font-size: 13px;
+    box-sizing: border-box;
+    background: lightgrey;
+    padding: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.login a {
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.navbar-nav>li>a {
+    padding: 7px 13px;
+    font-weight: 600;
+    color: #333e48;
+    line-height: 20px;
+    position: relative;
+    display: block;
+}
+
+.snd-navbar {
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+}
+
+header {
+    margin-top: 20px;
+    box-sizing: border-box;
+    clear: both;
+}
+.dropdown-menu {
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+#home-f {
+    background: #076fd1;
+    color: white;
+    
+}
+
+#navbarDropdown {
+    color: black;
+    padding: 7px;
+    margin: 0 2px;
+}
+
+#navbarDropdown:hover {
+    color: white;
+    background: #076fd1;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    color: #000000;
+    box-sizing: border-box;
+    background: #cecbcb;
+    padding: 10px;
+    margin: 5px -5px 5px 5px;
+    font-size: 11px;
+}
+
+.main-breadcrump {
+    border-bottom: 2px solid #edebef;
+    background-color: #f4f5f7;
+    padding-bottom: 5px;
+}
+
+.main-breadcrump .breadcrumb {
+    padding-left: 20px;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+
+.breadcrumb-item {
+    color: #076fd1;
+}
+
+.navbar-toggler {
+    color: #edebef;
+}
+

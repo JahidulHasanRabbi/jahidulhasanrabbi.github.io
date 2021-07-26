@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body {
+    font-family: raleway,sans-serif;
+    font-size: 14px;
+    color: #282c3f;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    clear: both;
+}
+
+li {
+    text-align: -webkit-match-parent;
+
+}
+
+footer {
+    font-size: 0.8rem;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: ;
+    padding-top: 10px;
+}
+
+footer a:link {
+    text-decoration: none;
+}
+
+.social {
+    height:1rem;
+    font-size: 2em;
+    margin: auto;
+}
+
+.youtube {
+    color: red;
+}
+
+.instagram {
+    color: red;
+}
+
+.social-group {
+    padding-bottom: 20px;
+}
+
+.rights {
+    padding-bottom: 30px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+header {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.shopmart{
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.search {
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.search input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 80%;
+    height: auto;
+    background: #f5f5f5;
+}
+
+.search input[type=text] {
+    padding: 2px;
+    font-weight: 500;
+    font-size: 17px;
+    border: none;
+}
+
+.search button{
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 20%;
+    height: auto;
+    background: #076fd1;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cart {
+    float: left;
+}
+
+.cart-my {
+    font-size: 13px;
+    box-sizing: border-box;
+    background: lightgrey;
+    padding: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.login a {
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.navbar-nav>li>a {
+    padding: 7px 13px;
+    font-weight: 600;
+    color: #333e48;
+    line-height: 20px;
+    position: relative;
+    display: block;
+}
+
+.snd-navbar {
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+}
+
+header {
+    margin-top: 20px;
+    box-sizing: border-box;
+    clear: both;
+}
+.dropdown-menu {
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+#home-f {
+    background: #076fd1;
+    color: white;
+    
+}
+
+#navbarDropdown {
+    color: black;
+    padding: 7px;
+    margin: 0 2px;
+}
+
+#navbarDropdown:hover {
+    color: white;
+    background: #076fd1;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropdown-item:hover {
+    color: #000000;
+    box-sizing: border-box;
+    background: #cecbcb;
+    padding: 10px;
+    margin: 5px -5px 5px 5px;
+    font-size: 11px;
+}
+
+.main-breadcrump {
+    border-bottom: 2px solid #edebef;
+    background-color: #f4f5f7;
+    padding-bottom: 5px;
+}
+
+.main-breadcrump .breadcrumb {
+    padding-left: 20px;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+}
+
+.breadcrumb-item {
+    color: #076fd1;
+}
+
+.navbar-toggler {
+    color: #edebef;
+}
+
+/*sidebar*/
+
+.main-page {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+}
+
+.theiaStickySidebar {
+    margin: 5px;
+    background-color: #fffefe;
+    font-size: 15px;
+    color: #000000;
+    border: 1px #333e48;
+}
+
+.brand-filter {
+    border: 1px solid #423232;   
+}
+
+.brand-name {
+    color:#000000;
+    padding: 15px;
+    background-color: #d7d7d8;
+}
+.checkbox {
+    margin-left: 5px;
+    padding: 6px 15px;
+}
+.brand_class {
+    margin: 5px;
+}
+
+/*Product*/
+
+.card {
+    width: 200px;
+    height: 320px;
+    margin: 10px 5px;
+}
+
+.card-title {
+    font-size: 14px;
+    font: 500 14px/1.35 Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color:#000000;
+}
+.card-title:hover {
+    color:#076fd1;
+}
+
+.card-text {
+    font-size: 130%;
+    color: #ef4932;
+    text-align: center;
+    font: bold;
+
+}
+
+.product {
+    
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(75 104 123 / 30%), 0 2px 4px 0 rgb(0 0 0 / 30%);
+    
+}
+
+/* Details*/
+.product-header {
+    margin: 10px 0 10px 0;
+}
+.product-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 6px 0;
+}
+
+.metadata {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.metadata >li {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-bottom: 0;
+}
+.brand {
+    padding-right: 15px;
+}
+.brand-name-style {
+    color: #076fd1;
+    font-size: 13px;
+}
+
+.model {
+    border-left: 1px solid #282c3f;
+    padding: 0 15px;
+}
+.col-sm-8, .col-sm-4 {
+    float: left;
+}
+
+.col-a {
+    box-sizing: border-box;
+    box-shadow: 0 8px 16px 0 rgb(75 104 123 / 20%), 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+.product-must-detail {
+    margin: 3px;
+    padding: 10px;
+}
+
+.social-media-post {
+    font-size: 35px;
+}
+.fa-whatsapp-square {
+    color: #36cc3d;
+    background-color: #ffffff;
+}
+.fa-twitter-square {
+    color: #5db2da;
+    background-color: #ffffff;
+}
+.fa-telegram {
+    color: #5db2da;
+    background-color: #ffffff;
+}
+
+.main-image >img{
+    
+    margin: 15px 10px 10px 20px;
+}
+h1 {
+    font-size: 22px;
+    font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.review  p{
+    font-size: 12px;
+    color: #000000;
+}
+
+.brand-name-a {
+    
+}
+
+.brand-name-a h5{
+    font-weight: 600;
+    font-size: 14px;
+}
+.review p:hover {
+    color: #5db2da;
+}
+.product-price {
+    color: red;
+    padding: 10px;
+}
+
+.product-stock h5 {
+    font-size: 15px;
+}
+.in-stock {
+    color: green;
+}
+.out-stock {
+    color: red;
+}
+.coming {
+    color: #0400fc;
+}
+
+.warranty p {
+    font-size: 13px;
+    color: #282828;
+    font-weight: 500;
+    font-family: Lato,Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.control-cart {
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.btn-a {
+    border: 1px solid #282c3f;
+}
+
+#qty {
+    border-radius: 5px;
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+}
+
+.button-add {
+    margin: 15px 0px;
+}
+#pills-profile-tab, #pills-home-tab, #pills-contact-tab {
+    color: #000000;
+}
